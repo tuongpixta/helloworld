@@ -10,7 +10,9 @@
   </head>
 
   <body>
-    <div class="p-3">
+    <%= render partial: "shared/navbar" %>
+    <div class="container p-3">
+      <%= render partial: "shared/flash" %>
       <%= yield %>
     </div>
   </body>
